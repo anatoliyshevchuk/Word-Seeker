@@ -24,7 +24,6 @@ class Seeker {
         deepSeek(AllWordContainer);
         return matchWords;
     }
-//TODO: normal naming of variables
     private void deepSeek(List<char[]> words)
     {
         List<char[]> accurateWordContainer = new ArrayList<>(10000);
